@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ElectricSound : MonoBehaviour
 {
-    public GameObject ateriTrigger, text;
+    public GameObject ateriTrigger;
 
     public AudioClip clip1, clip2;
 
@@ -28,7 +28,7 @@ public class ElectricSound : MonoBehaviour
 
             StartCoroutine(Sound());
         }
-    }
+     }
 
     IEnumerator Sound()
     {
@@ -39,8 +39,6 @@ public class ElectricSound : MonoBehaviour
         src.Play();
 
         yield return new WaitForSeconds(clip2.length);
-
-        text.SetActive(true);
 
         Destroy(gameObject);
     }
