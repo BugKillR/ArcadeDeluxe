@@ -661,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Retro Shooter
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b87974f0161faa749b4f02c599f75e12, type: 2}
   m_sharedMaterial: {fileID: 125353574357733846, guid: b87974f0161faa749b4f02c599f75e12,
@@ -2545,7 +2545,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba74c60f7251d184ba804441e0e77679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxScore: {fileID: 11400000, guid: ba8693a1e14be924d8e94ce959e1d0a5, type: 2}
   text: {fileID: 238040250}
+  game: {fileID: 238040252}
   retroShooter: 0
 --- !u!65 &1393241378
 BoxCollider:
