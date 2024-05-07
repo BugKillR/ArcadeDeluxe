@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private string gameName;
+
+    
+
+    private void Update()
     {
-        
+        WhichGame();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void WhichGame()
     {
-        
+        /*if()
+        {
+            gameName = nameof(RetroShooter);
+
+            Debug.Log(gameName);
+        }*/
     }
 }
